@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int compar(void *pa , void *pb)
 {
-    int A =*((int*)pa);
+    int a =*((int*)pa);
     int B =*((int*)pb);
     int ret=0;
     if(a<b)
