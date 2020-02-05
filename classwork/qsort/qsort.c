@@ -2,8 +2,8 @@
 #include <stdlib.h>
 int compar(void *pa , void *pb)
 {
-    int a =*((int*)pa);
-    int b =*((int*)pb);
+    int A =*((int*)pa);
+    int B =*((int*)pb);
     int ret=0;
     if(a<b)
     ret=-1;
