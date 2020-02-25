@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 
-#define LED3_PATH "/sys/class/gpio/gpio200"
+#define LED3_PATH "/sys/class/gpio/gpio20"
 
 void writeLED(string filename, string value){
    fstream fs;
