@@ -11,6 +11,7 @@ void writeLED(string filename, string value){
    fs.open((path + filename).c_str(), fstream::out);
    fs << value;
    fs.close();
+   
 }
 
 int main()
