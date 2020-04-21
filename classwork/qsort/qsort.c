@@ -17,7 +17,7 @@ int compar(void *pa ,  void *pb)
 }
 int main()
 {
-int myarr[] = { 88, 56, 100, 2, 25, 89, 97, -76, 4025, -329};
+int myarr[] = { 88, 56, 100, 2, 25, 89, 97, -76, 4025, -329, 55};
 size_t L = sizeof(myarr)/sizeof(int);
 for(int n = 0 ; n< sizeof(myarr)/sizeof(int); n++)
 printf(" %d " ,myarr[n]);
