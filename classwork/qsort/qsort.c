@@ -2,7 +2,6 @@
 #include <stdlib.h>
 int compar(void *pa ,  void *pb)
   
-  
 {
     int a =*((int*)pa);
     int b =*((int*)pb);
