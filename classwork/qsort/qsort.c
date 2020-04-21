@@ -13,7 +13,6 @@ int compar(void *pa ,  void *pb)
     ret=1;
     return ret;
  
-  
 }
 int main()
 {
