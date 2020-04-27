@@ -10,8 +10,7 @@ void writeLED(string filename, string value)
    string path(LED3_PATH);
    fs.open((path + filename).c_str(), fstream::out);
    fs << value;
-   fs.close();
-   
+   fs.close();  
 }
 
 int main()
