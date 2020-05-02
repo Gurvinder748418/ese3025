@@ -11,6 +11,7 @@ static void prvSetupHardware(void)
 	Board_LED_Set(1, true);
 	Board_LED_Set(2, true);
 }
+
 /* red light*/
 static void vLEDRed(void *pvParameters)
 {
