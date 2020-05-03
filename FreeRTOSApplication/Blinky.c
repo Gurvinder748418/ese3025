@@ -81,4 +81,5 @@ int main(void)
 	vTaskStartScheduler();
 	/* Should never arrive here */
 	return 1;
+
 }
