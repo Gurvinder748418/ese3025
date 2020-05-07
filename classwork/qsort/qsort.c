@@ -23,7 +23,6 @@ qsort(myarr,L, sizeof(int),compar);
 for(int i = 0 ; i< sizeof(myarr)/sizeof(int); i++)
 printf(" %d ",myarr[i]);
 return 0;
-
 }
 
 
