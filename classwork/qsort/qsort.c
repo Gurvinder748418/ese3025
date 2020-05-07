@@ -10,7 +10,6 @@ int compar(void *pa ,void *pb)
     else if (a>b)
     ret=1;
     return ret;
- 
 }
 int main()
 {
