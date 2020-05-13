@@ -13,7 +13,6 @@ void writeLED(string filename,string value)
    fs << value;
    fs.close();  
 }
-
 int main()
 {
    
