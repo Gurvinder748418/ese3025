@@ -21,5 +21,4 @@ int main()
     writeLED("/value","0");   
  };
       return 0;
-
 }
