@@ -12,6 +12,7 @@ void writeLED(string filename,string value)
    fs << value;
    fs.close();  
 }
+
 int main()
 {
    for(int i=0;i<100000;i++)
